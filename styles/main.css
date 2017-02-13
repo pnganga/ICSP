@@ -1,0 +1,225 @@
+body {
+    /*background-color: #e8f5background-color: #e8f5e9;e9;*/
+    background-color: #e8f5e9;
+}
+
+#navdiv {
+    /*background-color: #e8f5e9;    */
+    background-color: #d50000;
+}
+
+.navbar-default {
+    background-color: #d50000;
+    border-color: #d50000;
+    box-shadow: none;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.navbar-collapse.collapse {
+    display: none!important;
+}
+
+.navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+
+.navbar-nav>li {
+    float: none;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#picdiv {
+    background-image: url("/images/MCollege-1.jpg");
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #037487ff;
+}
+
+#picdiv2 {
+    min-height: 300px;
+    background-image: url("/images/images.jpeg");
+    background-repeat: no-repeat;
+    background-color: #037487ff;
+    background-size: cover;
+}
+
+#picdiv3 {
+    min-height: 300px;
+    background-image: url("/images/fem.jpeg");
+    background-repeat: no-repeat;
+    background-color: #037487ff;
+    background-size: cover;
+}
+
+#top {
+    position: fixed;
+    min-height: 40px;
+    background-color: #d50000;
+    width: 100%;
+}
+#head{
+    top: 25px;
+}
+#topheading{
+    font-size: 2.1em;
+    font-weight: bold;
+    color: white;
+}
+#nav {
+   /* right: 45px;*/
+   width: 10%;
+    top: 30px;
+}
+
+#navbar {
+    background-color: #037487ff;
+    border-color: #037487ff;
+}
+
+.navbar {
+    background-image: none;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: transparent;
+}
+#logophone{
+    display: none;
+}
+
+#logodiv {
+    /*top: 20px;*/
+    left: 20px;
+}
+
+#logo {
+    /*left: 20px
+    ;*/
+}
+
+#info {
+    min-height: 300px;
+    background-color: #037487ff;
+    /*position: absolute;*/
+}
+
+#about {
+    /*background-attachment: fixed;*/
+    background-color: #037487ff;
+}
+
+#program {
+    background-color: #037487ff;
+}
+
+
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+}
+#myCarousel {
+
+}
+.contact {
+    top: 50px;
+}
+#pic {
+    height: auto;
+    width: 100%;
+}
+#heading {
+    font-weight: bold;
+    color: #e8f5e9;
+    font-size: 4em;
+}
+.doctext {
+    color: white;
+    scroll-behavior: smooth;
+    font-effect: engrave;
+    font-size: 1.1em;
+}
+#icsp {
+    color: red;
+    font-weight: bolder;
+    font-size: 2em;
+}
+#icsp2 {
+    color: red;
+    font-weight: bolder;
+    
+}
+.module {
+    min-height: 50px;
+    background-color: white;
+    border-color: #e8f5e9;
+}
+.moduletext {
+    font-size: 3em;
+    font-weight: bold;
+    color: #037487ff;
+}
+#module-category{
+ font-weight: bold;   
+}
+#explain{
+    color: grey;
+}
+#explain2{
+    color: white;
+}
+#contact{
+    /*min-height: 300px;*/
+    background-color: #037487ff; 
+}
+#foot{
+    min-height: 30px;
+    background-color: red;
+}
+#facebook{
+    z-index: 47;
+    width: 50px;
+    height: 50px;
+    background-color: #d50000;
+    background-image: url(/images/Facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    display: block;
+}
